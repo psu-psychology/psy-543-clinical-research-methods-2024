@@ -2,7 +2,7 @@
 title: "Open science"
 subtitle: "PSY 543 Spring 2024"
 author: "Rick Gilmore"
-institute: "Penn State Psychology & Databrary.org"
+institute: "Penn State Psychology & [Databrary](https://databrary.org)"
 format: 
   revealjs:
     theme: default
