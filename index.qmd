@@ -29,17 +29,13 @@ Thank you to NICHD, NIMH, NIDA, NIH OD, NSF, the Alfred P. Sloan Foundation, the
 
 # Prelude
 
-------------------------------------------------------------------------
+---
 
-::: {#fig-data-sharing-snafu }
-
-<iframe width="840" height="473" src="https://www.youtube.com/embed/66oNv_DJuPc?si=u5A8CMtHebiEDHTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/66oNv_DJuPc?si=u5A8CMtHebiEDHTJ width="100%" height = "80%">}}
 
 [@NYU_Health_Sciences_Library2013-gp]
 
-:::
-
-------------------------------------------------------------------------
+---
 
 ```{r, fig.cap="Survey responses from PSU researchers: <https://penn-state-open-science.github.io/survey-fall-2022/>"}
 knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-data-storage-places-1.png")
@@ -152,7 +148,9 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 ## Do you agree or disagree with Mischel?
 
-# [@munafo_manifesto_2017]
+# A Manifesto for Reproducible Science
+
+[@munafo_manifesto_2017]
 
 ## When (and why) would someone write a manifesto?
 
@@ -160,13 +158,13 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 ![[@munafo_manifesto_2017]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-016-0021/MediaObjects/41562_2016_Article_BFs415620160021_Fig1_HTML.jpg?as=webp){#fig-munafo-2017}
 
-## Your reaction?
+## Your reactions?
 
 ------------------------------------------------------------------------
 
 ::: columns
 ::: {.column width="60%"}
-> "*The first principle is that you must not fool yourself---and you are the easiest person to fool. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists.*"
+> "The first principle is that **you must not fool yourself---and you are the easiest person to fool**. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists."
 
 [@Feynman1974-ld]
 :::
@@ -180,7 +178,7 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 ::: columns
 ::: {.column width="60%"}
-> "*I'm talking about a specific, extra type of integrity that is not lying, but **bending over backwards to show how you're maybe wrong**, that you ought to do when acting as a scientist. And **this is our responsibility as scientists**, certainly to other scientists, and I think to laymen*."
+> "I'm talking about a specific, extra type of integrity that is not lying, but **bending over backwards to show how you're maybe wrong**, that you ought to do when acting as a scientist. And **this is our responsibility as scientists**, certainly to other scientists, and I think to laymen."
 
 [@Feynman1974-ld]
 :::
@@ -194,7 +192,7 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 ::: columns
 ::: {.column width="60%"}
-> "*...If you've made up your mind to test a theory, or you want to explain some idea, you should always decide to publish it whichever way it comes out. If we only publish results of a certain kind, we can make the argument look good. We must publish both kinds of result.*"
+> "...If you've made up your mind to test a theory, or you want to explain some idea, **you should always decide to publish it whichever way it comes out**. If we only publish results of a certain kind, we can make the argument look good. We must publish both kinds of result."
 
 [@Feynman1974-ld]
 :::
@@ -206,7 +204,15 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 :::
 :::
 
-# [@Silberzahn2018-st]
+## Reactions to Feynmann?
+
+- Are you fooling yourself? Are others? How do we avoid that?
+- Do scientists have an obligation to 'bend over backwards' to show how they might be wrong?
+- Should all results, null or contradictory to a prediction be published?
+
+# Many Analysts, One Dataset
+
+[@Silberzahn2018-st]
 
 ------------------------------------------------------------------------
 
@@ -228,25 +234,25 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 
 ------------------------------------------------------------------------
 
-> "*Here, we have demonstrated that as a result of researchers' choices and assumptions during analysis, variation in estimated effect sizes can emerge even when analyses use the same data.*"
+>"Here, we have demonstrated that as a result of researchers' choices and assumptions during analysis, variation in estimated effect sizes can emerge even when analyses use the same data."
 
 [@Silberzahn2018-st]
 
 ------------------------------------------------------------------------
 
-> "*These findings suggest that significant variation in the results of analyses of complex data may be difficult to avoid, even by experts with honest intentions.*"
+>"These findings suggest that significant variation in the results of analyses of complex data may be difficult to avoid, even by experts with honest intentions."
 
 [@Silberzahn2018-st]
 
 ------------------------------------------------------------------------
 
-> "*The best defense against subjectivity in science is to expose it.*"
+>"The best defense against subjectivity in science is to expose it."
 
 [@Silberzahn2018-st]
 
 ------------------------------------------------------------------------
 
-> "*Transparency in data, methods, and process gives the rest of the community opportunity to see the decisions, question them, offer alternatives, and test these alternatives in further research.*"
+>"Transparency in data, methods, and process gives the rest of the community opportunity to see the decisions, question them, offer alternatives, and test these alternatives in further research."
 
 [@Silberzahn2018-st]
 
@@ -254,26 +260,36 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 
 ![Example from a related field [@Botvinik-Nezer2020-wr]](img/botvinick-nezer-nature-2020.png){#fig-botvinick-nezer-etal-2020}
 
-## How could a 'many analysts' approach be helpful/harmful?
+---
 
-## Are statistics enough?
+>"The flexibility of analytical approaches is exemplified by the fact that **no two teams chose identical workflows** to analyse the data. This flexibility resulted in **sizeable variation in the results of hypothesis tests**, even for teams whose statistical maps were highly correlated at intermediate stages of the analysis pipeline...Our findings show that **analytical flexibility can have substantial effects on scientific conclusions**...The results emphasize the **importance of validating and sharing complex analysis workflows**, and demonstrate the need for performing and reporting multiple analyses of the same data." [@Botvinik-Nezer2020-wr]
+
+## Reactions to a many analysts approach
+
+- How could a 'many analysts' approach be helpful/harmful?
+- How does a 'many analysts' approach contradict conventional thinking?
+- Are researchers sufficiently transparent about their data, methods, and processes?
+
+## Are statistics alone enough?
 
 - "Plot your data!" -- [Mike Meyer](https://www.linkedin.com/in/mike-meyer-0056578a/)
-- [Failure](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz.html) to "see" the effect, despite trying hard to
+- [Failure](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz.html) to "see" the effect, despite trying hard to.
+- Do our figures show the effects our statistics detect?
+- "Many plots" project?
 
 # Easing in to open science 
 
+[@Kathawalla2021-tk]{.center}
+
+------------------------------------------------------------------------
+
+>"This article provides a roadmap to assist graduate students and their advisors to engage in open science practices...We give graduate students ideas on how to approach conversations with their advisors/collaborators, ideas on how to integrate open science practices within the graduate school framework, and specific resources on how to engage with each behavior..."
+
 [@Kathawalla2021-tk]
 
 ------------------------------------------------------------------------
 
-> "*This article provides a roadmap to assist graduate students and their advisors to engage in open science practices...We give graduate students ideas on how to approach conversations with their advisors/collaborators, ideas on how to integrate open science practices within the graduate school framework, and specific resources on how to engage with each behavior...*"
-
-[@Kathawalla2021-tk]
-
-------------------------------------------------------------------------
-
-> "*We emphasize that engaging in open science behaviors need not be an all or nothing approach, but rather graduate students can engage with any number of the behaviors outlined.*"
+>"We emphasize that **engaging in open science behaviors need not be an all or nothing approach**, but rather graduate students can engage with any number of the behaviors outlined."
 
 [@Kathawalla2021-tk]
 
@@ -283,12 +299,22 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 
 ## Your thoughts?
 
+- Do these recommendations seem sensible to you?
+- Have you had success implementing new practices in your research group?
+- Are there any practices you'd like to try?
+- Remaining barriers?
+
+---
+
+![https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg](https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg)
+
 # Local resources
 
 ---
 
 - Open Science [Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/) (Summer 2023)
 - Data management [workshop](https://penn-state-open-science.github.io/data-mgmt-2024/) Spring 2024
+- (Coming soon) [Magic Tricks with Quarto](https://penn-state-open-science.github.io/quarto-workshop/) workshop.
 
 # Resources
 
@@ -303,13 +329,12 @@ plot(talk_qr)
 
 <https://psu-psychology.github.io/psy-543-clinical-research-methods-2024/>
 
-## Code
+## Code {.scrollable}
 
 This talk was produced on `r Sys.Date()` in [RStudio](http://rstudio.com) using [Quarto](https://quarto.org) and the [revealJS](https://quarto.org/docs/presentations/revealjs/) framework.
 
-------------------------------------------------------------------------
-
-The code and materials used to generate the slides may be found at <https://psu-psychology.github.io/psy-543-clinical-research-methods-2024/>. Information about the R Session that produced the code is as follows:
+The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/psy-543-clinical-research-methods-2024/>. 
+Information about the R Session that produced the code is as follows:
 
 ```{r session-info}
 sessionInfo()
