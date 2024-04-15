@@ -55,6 +55,12 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 
 ![[@OGrady2024-du]](include/img/gino-research-misconduct.png)
 
+---
+
+![[@Bartlett2024-sy]](include/img/ariely-telling-the-truth.png)
+
+---
+
 {{< include _errington-bootcamp-2023.qmd >}}
 
 # Some questions to ponder
@@ -152,7 +158,7 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 
 ------------------------------------------------------------------------
 
-> "*Twenty-nine teams involving 61 analysts used the same data set to address the same research question: whether soccer referees are more likely to give red cards to dark-skin-toned players than to light-skin-toned players.*"
+> "Twenty-nine teams involving 61 analysts used the same data set to address the same research question: whether soccer referees are more likely to give red cards to dark-skin-toned players than to light-skin-toned players."
 
 [@Silberzahn2018-st]
 
@@ -199,15 +205,18 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 ---
 
 >"The flexibility of analytical approaches is exemplified by the fact that **no two teams chose identical workflows** to analyse the data. This flexibility resulted in **sizeable variation in the results of hypothesis tests**, even for teams whose statistical maps were highly correlated at intermediate stages of the analysis pipeline..."
->[@Botvinik-Nezer2020-wr]
+
+[@Botvinik-Nezer2020-wr]
 
 ---
 
 >"Our findings show that **analytical flexibility can have substantial effects on scientific conclusions**...The results emphasize the **importance of validating and sharing complex analysis workflows**, and demonstrate the need for performing and reporting multiple analyses of the same data."
->[@Botvinik-Nezer2020-wr]
+
+[@Botvinik-Nezer2020-wr]
 
 ## Reactions to a many analysts approach
 
+- What does it mean when analysts take different approaches to the same data and find different things? Or similar things?
 - How could a 'many analysts' approach be helpful/harmful?
 - How does a 'many analysts' approach contradict conventional thinking about data analysis?
 - Are researchers sufficiently transparent about their data, methods, and processes?
@@ -215,9 +224,27 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 
 ## Are statistics alone enough?
 
+- Do our figures show the effects our statistics detect?
 - "Plot your data!" -- [Mike Meyer](https://www.linkedin.com/in/mike-meyer-0056578a/)
 - [Failure](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz.html) to "see" the effect, despite trying hard to
-- Do our figures show the effects our statistics detect?
+
+---
+
+:::: columns
+::: {.column width="50%"}
+
+![<https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz.html>](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz_files/figure-html/fig-n-yellow-by-skin-tone-1.png)
+:::
+::: {.column width="50%"}
+![<https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz.html>](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz_files/figure-html/fig-n-red-by-skin-tone-1.png)
+:::
+::::
+
+## Your thoughts?
+
+- Do you plot your data first?
+- Why or why not?
+- Do you "script" figure generation? Have you had to regenerate figures when something changes?
 - "Many plots" project?
 
 # Easing in to open science
@@ -256,15 +283,15 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 
 ---
 
-- Open Science [Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/) (Summer 2023)
-- Data management [workshop](https://penn-state-open-science.github.io/data-mgmt-2024/) Spring 2024
+- Open Science [Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/) (Summer 2023).
+- Data management [workshop](https://penn-state-open-science.github.io/data-mgmt-2024/) Spring 2024.
 - (Coming soon) [Magic Tricks with Quarto](https://penn-state-open-science.github.io/quarto-workshop/) workshop.
+- l-open-science@lists.psu.edu
 
 ## A conversation about open science
 
-### Let's keep talking
-
 <p style="text-align:center;">
+*Let's keep talking...*
 </br></br></br>
 **Rick Gilmore**</br>
 rog1 AT-SYMBOL psu PERIOD edu</br>
