@@ -1,5 +1,5 @@
 ---
-title: "Open science"
+title: "A conversation about open science"
 subtitle: "PSY 543 Spring 2024"
 author: "Rick Gilmore"
 institute: "Penn State Psychology & [Databrary](https://databrary.org)"
@@ -11,7 +11,7 @@ format:
     background-transition: concave
     fig-align: center
     footer: "[PSY 543 Spr 2024](../index.html)"
-bibliography: 'bib/psy-543.bib'
+bibliography: 'include/bib/psy-543.bib'
 bibliographystyle: apa
 ---
 
@@ -21,19 +21,21 @@ Thank you to NICHD, NIMH, NIDA, NIH OD, NSF, the Alfred P. Sloan Foundation, the
 
 ## Agenda
 
--   Prelude
--   Some questions to ponder
--   Discuss [@munafo_manifesto_2017]
--   Discuss [@Silberzahn2018-st]
--   Discuss [@Kathawalla2021-tk]
+- Just-so stories
+- Some questions to ponder
+- Discuss [@munafo_manifesto_2017]
+- Discuss [@Silberzahn2018-st]
+- Discuss [@Kathawalla2021-tk]
 
-# Prelude
+# Just-so stories
 
 ---
 
-{{< video https://www.youtube.com/embed/66oNv_DJuPc?si=u5A8CMtHebiEDHTJ width="100%" height = "80%">}}
+{{< video https://www.youtube.com/embed/66oNv_DJuPc?si=u5A8CMtHebiEDHTJ width="100%" height = "80%" >}}
 
+<p style="text-align:center;">
 [@NYU_Health_Sciences_Library2013-gp]
+</p>
 
 ---
 
@@ -41,7 +43,21 @@ Thank you to NICHD, NIMH, NIDA, NIH OD, NSF, the Alfred P. Sloan Foundation, the
 knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-data-storage-places-1.png")
 ```
 
-# Questions to ponder
+---
+
+![[@Saul2023-xa]](include/img/nyt-tessier-lavigne.png){fig-align="center"}
+
+---
+
+![[@Oransky_2023]](include/img/oransky-marcus-sci-am-2023.png)
+
+---
+
+![[@OGrady2024-du]](include/img/gino-research-misconduct.png)
+
+{{< include _errington-bootcamp-2023.qmd >}}
+
+# Some questions to ponder
 
 ---
 
@@ -77,6 +93,8 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 :::: {.columns}
 ::: {.column width="50%"}
 ### Have you failed to reproduce an analysis from your lab or someone else's?
+
+[@baker_1500_2016]
 :::
 
 ::: {.column width="50%"}
@@ -91,60 +109,17 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 :::: {.columns}
 ::: {.column width="50%"}
 ### What factors contribute to irreproducible research?
-:::
 
+[@baker_1500_2016]
+:::
 ::: {.column width="50%"}
 ![](https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Figg_HTML.jpg?as=webp){.lightbox width="87%"}
 :::
 ::::
 
-------------------------------------------------------------------------
+---
 
-::: columns
-::: {.column width="40%"}
-> "*...psychologists tend to treat other peoples' theories like toothbrushes; no self-respecting individual wants to use anyone else's.*"
-
-[@Mischel2011-br]
-:::
-
-::: {.column width="60%"}
-```{r}
-knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg")
-```
-:::
-:::
-
-------------------------------------------------------------------------
-
-::: columns
-::: {.column width="40%"}
-> "*The toothbrush culture undermines the building of a genuinely cumulative science...*"
-
-[@Mischel2011-br]
-:::
-
-::: {.column width="60%"}
-```{r}
-knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg")
-```
-:::
-:::
-
-------------------------------------------------------------------------
-
-::: columns
-::: {.column width="40%"}
-> "*...encouraging more parallel play and solo game playing, rather than building on each other's directly relevant best work.*"
-
-[@Mischel2011-br]
-:::
-
-::: {.column width="60%"}
-```{r}
-knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg")
-```
-:::
-:::
+{{< include _toothbrush-culture-mishel.qmd >}}
 
 ## Do you agree or disagree with Mischel?
 
@@ -162,51 +137,12 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 ------------------------------------------------------------------------
 
-::: columns
-::: {.column width="60%"}
-> "The first principle is that **you must not fool yourself---and you are the easiest person to fool**. So you have to be very careful about that. After you've not fooled yourself, it's easy not to fool other scientists."
-
-[@Feynman1974-ld]
-:::
-
-::: {.column width="40%"}
-![Richard P. Feynman, Wikipedia](https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg)
-:::
-:::
-
-------------------------------------------------------------------------
-
-::: columns
-::: {.column width="60%"}
-> "I'm talking about a specific, extra type of integrity that is not lying, but **bending over backwards to show how you're maybe wrong**, that you ought to do when acting as a scientist. And **this is our responsibility as scientists**, certainly to other scientists, and I think to laymen."
-
-[@Feynman1974-ld]
-:::
-
-::: {.column width="40%"}
-![Richard P. Feynman, Wikipedia](https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg)
-:::
-:::
-
-------------------------------------------------------------------------
-
-::: columns
-::: {.column width="60%"}
-> "...If you've made up your mind to test a theory, or you want to explain some idea, **you should always decide to publish it whichever way it comes out**. If we only publish results of a certain kind, we can make the argument look good. We must publish both kinds of result."
-
-[@Feynman1974-ld]
-:::
-
-::: {.column width="40%"}
-```{r, fig.cap="Richard P. Feynman, Wikipedia"}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg")
-```
-:::
-:::
+{{< include _feynmann.qmd >}}
 
 ## Reactions to Feynmann?
 
-- Are you fooling yourself? Are others? How do we avoid that?
+- Are you fooling yourself? Are others?
+- Is that bad? How do we avoid it?
 - Do scientists have an obligation to 'bend over backwards' to show how they might be wrong?
 - Should all results, null or contradictory to a prediction be published?
 
@@ -222,15 +158,15 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 
 ## Strategies among teams
 
-![[@Silberzahn2018-st]](img/silberzahn-table-1.jpeg)
+![[@Silberzahn2018-st]](include/img/silberzahn-table-1.jpeg)
 
 ## Consequences
 
-![[@Silberzahn2018-st]](img/silberzahn-fig-2.gif){#fig-silberzahn-fig-2}
+![[@Silberzahn2018-st]](include/img/silberzahn-fig-2.gif){#fig-silberzahn-fig-2}
 
 ## Beliefs change over time?
 
-![[@Silberzahn2018-st]](img/silberzahn-fig-4.gif){#fig-silberzahn-fig-4}
+![[@Silberzahn2018-st]](include/img/silberzahn-fig-4.gif){#fig-silberzahn-fig-4}
 
 ------------------------------------------------------------------------
 
@@ -258,26 +194,33 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 
 ------------------------------------------------------------------------
 
-![Example from a related field [@Botvinik-Nezer2020-wr]](img/botvinick-nezer-nature-2020.png){#fig-botvinick-nezer-etal-2020}
+![Example from a related field [@Botvinik-Nezer2020-wr]](include/img/botvinick-nezer-nature-2020.png){#fig-botvinick-nezer-etal-2020}
 
 ---
 
->"The flexibility of analytical approaches is exemplified by the fact that **no two teams chose identical workflows** to analyse the data. This flexibility resulted in **sizeable variation in the results of hypothesis tests**, even for teams whose statistical maps were highly correlated at intermediate stages of the analysis pipeline...Our findings show that **analytical flexibility can have substantial effects on scientific conclusions**...The results emphasize the **importance of validating and sharing complex analysis workflows**, and demonstrate the need for performing and reporting multiple analyses of the same data." [@Botvinik-Nezer2020-wr]
+>"The flexibility of analytical approaches is exemplified by the fact that **no two teams chose identical workflows** to analyse the data. This flexibility resulted in **sizeable variation in the results of hypothesis tests**, even for teams whose statistical maps were highly correlated at intermediate stages of the analysis pipeline..."
+>[@Botvinik-Nezer2020-wr]
+
+---
+
+>"Our findings show that **analytical flexibility can have substantial effects on scientific conclusions**...The results emphasize the **importance of validating and sharing complex analysis workflows**, and demonstrate the need for performing and reporting multiple analyses of the same data."
+>[@Botvinik-Nezer2020-wr]
 
 ## Reactions to a many analysts approach
 
 - How could a 'many analysts' approach be helpful/harmful?
-- How does a 'many analysts' approach contradict conventional thinking?
+- How does a 'many analysts' approach contradict conventional thinking about data analysis?
 - Are researchers sufficiently transparent about their data, methods, and processes?
+- Why or why not?
 
 ## Are statistics alone enough?
 
 - "Plot your data!" -- [Mike Meyer](https://www.linkedin.com/in/mike-meyer-0056578a/)
-- [Failure](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz.html) to "see" the effect, despite trying hard to.
+- [Failure](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz.html) to "see" the effect, despite trying hard to
 - Do our figures show the effects our statistics detect?
 - "Many plots" project?
 
-# Easing in to open science 
+# Easing in to open science
 
 [@Kathawalla2021-tk]{.center}
 
@@ -301,6 +244,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 
 - Do these recommendations seem sensible to you?
 - Have you had success implementing new practices in your research group?
+- Have you encountered any barriers?
 - Are there any practices you'd like to try?
 - Remaining barriers?
 
@@ -315,6 +259,20 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 - Open Science [Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/) (Summer 2023)
 - Data management [workshop](https://penn-state-open-science.github.io/data-mgmt-2024/) Spring 2024
 - (Coming soon) [Magic Tricks with Quarto](https://penn-state-open-science.github.io/quarto-workshop/) workshop.
+
+## A conversation about open science
+
+### Let's keep talking
+
+<p style="text-align:center;">
+</br></br></br>
+**Rick Gilmore**</br>
+rog1 AT-SYMBOL psu PERIOD edu</br>
+114 Moore</br>
+[github.com/gilmore-lab](https://github.com/gilmore-lab)</br>
+[github.com/psu-psychology](https://github.com/psu-psychology)</br>
+[github.com/penn-state-open-science](https://github.com/penn-state-open-science)
+</p>
 
 # Resources
 
@@ -333,7 +291,7 @@ plot(talk_qr)
 
 This talk was produced on `r Sys.Date()` in [RStudio](http://rstudio.com) using [Quarto](https://quarto.org) and the [revealJS](https://quarto.org/docs/presentations/revealjs/) framework.
 
-The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/psy-543-clinical-research-methods-2024/>. 
+The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/psy-543-clinical-research-methods-2024/>.
 Information about the R Session that produced the code is as follows:
 
 ```{r session-info}
