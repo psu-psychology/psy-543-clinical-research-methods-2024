@@ -568,7 +568,7 @@ Figure&nbsp;2: Survey responses from PSU researchers: <a href="https://penn-stat
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Figf_HTML.jpg?as=webp" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="[@baker_1500_2016]"><img data-src="https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Figf_HTML.jpg?as=webp" style="width:75.0%" alt="(Baker 2016)"></a></p>
+<p><a href="https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Figf_HTML.jpg?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="[@baker_1500_2016]"><img data-src="https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Figf_HTML.jpg?as=webp" style="width:75.0%" alt="(Baker 2016)"></a></p>
 <figcaption><span class="citation" data-cites="baker_1500_2016">(<a href="#/references" role="doc-biblioref" onclick="">Baker 2016</a>)</span></figcaption>
 </figure>
 </div>
@@ -952,9 +952,10 @@ attached base packages:
 
 loaded via a namespace (and not attached):
  [1] compiler_4.3.3    assertthat_0.2.1  fastmap_1.1.1     cli_3.6.2        
- [5] htmltools_0.5.8.1 tools_4.3.3       qrcode_0.2.2      yaml_2.3.8       
- [9] rmarkdown_2.26    knitr_1.45        jsonlite_1.8.8    xfun_0.43        
-[13] digest_0.6.35     rlang_1.1.3       renv_1.0.5        evaluate_0.23    </code></pre>
+ [5] htmltools_0.5.8.1 tools_4.3.3       qrcode_0.2.2      rstudioapi_0.16.0
+ [9] yaml_2.3.8        rmarkdown_2.26    knitr_1.45        jsonlite_1.8.8   
+[13] xfun_0.43         digest_0.6.35     rlang_1.1.3       renv_1.0.5       
+[17] evaluate_0.23    </code></pre>
 </div>
 </div>
 </section>
@@ -1417,7 +1418,7 @@ Silberzahn, R, E L Uhlmann, D P Martin, P Anselmi, F Aust, E Awtrey, Š Bahnı́
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
