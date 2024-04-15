@@ -7,10 +7,12 @@ format:
   revealjs:
     theme: default
     chalkboard: true
-    preview-links: true
+    preview-links: auto
     background-transition: concave
     fig-align: center
     footer: "[PSY 543 Spr 2024](../index.html)"
+    slide-number: true
+    multiplex: true
 bibliography: 'include/bib/psy-543.bib'
 bibliographystyle: apa
 ---
@@ -288,10 +290,19 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 - (Coming soon) [Magic Tricks with Quarto](https://penn-state-open-science.github.io/quarto-workshop/) workshop.
 - l-open-science@lists.psu.edu
 
+## Passion projects
+
+- [Databrary.org](https://databrary.org)
+  - Restricted access data library for storing and sharing video and identifiable data
+  - [*databraryr*](https://databrary.github.io/databraryr) R library
+- [Play & Learning Across a Year (PLAY)](https://play-project.org) project
+  - Reproducible data gathering, cleaning, visualization, & export [workflow](https://play-behaviorome.github.io/KoBoToolbox)
+- [Course](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall) on the reproducibility crisis
+
 ## A conversation about open science
 
 <p style="text-align:center;">
-*Let's keep talking...*
+*Let's keep talking...*</br>
 </br></br></br>
 **Rick Gilmore**</br>
 rog1 AT-SYMBOL psu PERIOD edu</br>
