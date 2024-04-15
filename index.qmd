@@ -29,6 +29,17 @@ Thank you to NICHD, NIMH, NIDA, NIH OD, NSF, the Alfred P. Sloan Foundation, the
 - Discuss [@Silberzahn2018-st]
 - Discuss [@Kathawalla2021-tk]
 
+---
+
+```{r}
+#> label: "fig-lecture-notes-qr-code"
+#> fig-cap: "https://psu-psychology.github.io/psy-543-clinical-research-methods-2024/"
+talk_qr <- qrcode::qr_code("https://psu-psychology.github.io/psy-543-clinical-research-methods-2024/")
+plot(talk_qr)
+```
+
+<https://psu-psychology.github.io/psy-543-clinical-research-methods-2024/>
+
 # Just-so stories
 
 ---
@@ -131,28 +142,44 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 
 ## Do you agree or disagree with Mischel?
 
+- Do we treat other people's theories like toothbrushes?
+- Are we building a cumulative psychological science?
+- Should we be?
+- If so, how?
+
 # A Manifesto for Reproducible Science
 
 [@munafo_manifesto_2017]
 
 ## When (and why) would someone write a manifesto?
 
+![](include/img/manifesto-definition.png)
+
 ------------------------------------------------------------------------
 
 ![[@munafo_manifesto_2017]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-016-0021/MediaObjects/41562_2016_Article_BFs415620160021_Fig1_HTML.jpg?as=webp){#fig-munafo-2017}
 
+## Recommendations
+
+- [[Table 1 from @munafo_manifesto_2017]](https://www.nature.com/articles/s41562-016-0021/tables/1)
+
 ## Your reactions?
+
+- Do the proposed solutions seem like the right ones?
+- Are they feasible?
+- Are these the "right" stakeholders to consider?
 
 ------------------------------------------------------------------------
 
 {{< include _feynmann.qmd >}}
 
-## Reactions to Feynmann?
+## Reactions to Feynmann
 
 - Are you fooling yourself? Are others?
 - Is that bad? How do we avoid it?
 - Do scientists have an obligation to 'bend over backwards' to show how they might be wrong?
 - Should all results, null or contradictory to a prediction be published?
+- Why or why not?
 
 # Many Analysts, One Dataset
 
@@ -277,11 +304,7 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 - Are there any practices you'd like to try?
 - Remaining barriers?
 
----
-
-![https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg](https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg)
-
-# Local resources
+# Open scholarship at Penn State
 
 ---
 
@@ -290,7 +313,7 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 - (Coming soon) [Magic Tricks with Quarto](https://penn-state-open-science.github.io/quarto-workshop/) workshop.
 - l-open-science@lists.psu.edu
 
-## Passion projects
+## Gilmore's passion projects
 
 - [Databrary.org](https://databrary.org)
   - Restricted access data library for storing and sharing video and identifiable data
@@ -298,6 +321,48 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 - [Play & Learning Across a Year (PLAY)](https://play-project.org) project
   - Reproducible data gathering, cleaning, visualization, & export [workflow](https://play-behaviorome.github.io/KoBoToolbox)
 - [Course](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall) on the reproducibility crisis
+
+# Summing up
+
+## What colleagues say...
+
+>Why can't we just trust each other?
+
+---
+
+>If I have to review someone else's statistics, I'll stop reviewing.
+
+---
+
+>I'd never use data shared by X; I don't trust what they do.
+
+---
+
+>I don't have {time, permission, money} to {share data, share materials, pre-register a study, collect a large enough sample to be well-powered...}
+
+---
+
+>Back to the search for (statistical) significance!
+
+---
+
+![<https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg>](https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg){fig-align="center"}
+
+---
+
+![](https://miro.medium.com/v2/resize:fit:640/1*Nv4oqbfv5IwRSMdLGtFZuA.gif){fig-align="center"}
+
+---
+
+![Three Little Pigs](https://www.carloscamara.es/en/blog/2019/09/05/the-three-little-pigs-is-a-fairy-tale/featured.jpg){fig-align="center"}
+
+---
+
+![Pantheon](https://theromanguy.com/wp-content/uploads/pantheon-feature-real-900x420.jpeg){fig-align="center"}
+
+---
+
+![https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg](https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg)
 
 ## A conversation about open science
 
