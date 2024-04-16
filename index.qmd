@@ -18,6 +18,10 @@ bibliographystyle: apa
 
 # Preliminaries
 
+---
+
+![](include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg)
+
 ## About me
 
 - B.A., Cognitive Science, Brown University
