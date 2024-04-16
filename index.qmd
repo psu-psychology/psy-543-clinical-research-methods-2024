@@ -2,7 +2,6 @@
 title: "A conversation about open science"
 subtitle: "PSY 543 Spring 2024"
 author: "Rick Gilmore"
-institute: "Penn State Psychology & [Databrary](https://databrary.org)"
 format: 
   revealjs:
     theme: default
@@ -17,13 +16,34 @@ bibliography: 'include/bib/psy-543.bib'
 bibliographystyle: apa
 ---
 
+# Preliminaries
+
+## About me
+
+- B.A., Cognitive Science, Brown University
+- M.S. & Ph.D., Psychology (Cognitive Neuroscience), Carnegie Mellon University
+- Penn State 1997-
+- Human brain development, perception & action, computational modeling, machine vision, big data, open science
+
+---
+
+- Founding Director of Human Imaging, Penn State Social, Life & Engineering Sciences Imaging Center (SLEIC)
+- Co-Founder/Co-Director of [Databrary.org](https://databrary.org) data library
+- [gilmore-lab.github.io](https://gilmore-lab.github.io); [rick-gilmore.com](https://rick-gilmore.com); [w3tm.org](https://w3tm.org)
+
+---
+
+- banjo & harmonica player, actor, cyclist, backpacker, paddler, poet, ham ([W3TM](https://w3tm.org)), amateur astronomer
+- Judge of Elections (Precinct 26, State College East 3)
+- native Coloradoan, husband, dad, grandpa
+
 ## Acknowledgements
 
 Thank you to NICHD, NIMH, NIDA, NIH OD, NSF, the Alfred P. Sloan Foundation, the James S. McDonnell Foundation, the LEGO Foundation, and the John S. Templeton Foundation.
 
 ## Agenda
 
-- Just-so stories
+- Here's a story...
 - Some questions to ponder
 - Discuss [@munafo_manifesto_2017]
 - Discuss [@Silberzahn2018-st]
@@ -40,7 +60,7 @@ plot(talk_qr)
 
 <https://psu-psychology.github.io/psy-543-clinical-research-methods-2024/>
 
-# Just-so stories
+# Here's a story
 
 ---
 
@@ -75,6 +95,14 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 ---
 
 {{< include _errington-bootcamp-2023.qmd >}}
+
+---
+
+![% of U.S. adults who said science has had a(n) ___ effect on society](https://www.pewresearch.org/science/wp-content/uploads/sites/16/2023/11/PS_2023.11.14_trust-in-scientists_00-01.png){#fig-sci-positive-effect}
+---
+
+![% of U.S. adults who say...](https://www.pewresearch.org/science/wp-content/uploads/sites/16/2023/11/PS_2023.11.14_trust-in-scientists_00-04.png){#fig-sci-worthwhile-for-society}
+<https://www.pewresearch.org/science/2023/11/14/americans-trust-in-scientists-positive-views-of-science-continue-to-decline/>
 
 # Some questions to ponder
 
@@ -324,30 +352,6 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 
 # Summing up
 
-## What colleagues say...
-
->Why can't we just trust each other?
-
----
-
->If I have to review someone else's statistics, I'll stop reviewing.
-
----
-
->I'd never use data shared by X; I don't trust what they do.
-
----
-
->I don't have {time, permission, money} to {share data, share materials, pre-register a study, collect a large enough sample to be well-powered...}
-
----
-
->Back to the search for (statistical) significance!
-
----
-
-![<https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg>](https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg){fig-align="center"}
-
 ---
 
 ![](https://miro.medium.com/v2/resize:fit:640/1*Nv4oqbfv5IwRSMdLGtFZuA.gif){fig-align="center"}
@@ -363,6 +367,10 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 ---
 
 ![https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg](https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg)
+
+---
+
+![https://www.aarp.org/politics-society/history/info-2018/rosie-riveter-dies-fd.html](https://cdn.aarp.net/content/aarpe/en/home/politics-society/history/info-2018/rosie-riveter-dies-fd/_jcr_content/root/container_main/container_body_main/container_image/articlecontentfragme/cfimage.coreimg.75.1440.jpeg/content/dam/aarp/politics/events-and-history/2017/04/1140-naomi-parker-fraley-rosie-the-riveter.jpg)
 
 ## A conversation about open science
 
